@@ -22,7 +22,7 @@ docker-compose up -d
 Node app works on localhost:3001
 Mysql works on localhost:3306
 
-You could have pass and connection information in the ".env" file.
+Your password and connection information are in the ".env" file.
 
 
 6- Here are Rest API endpoints:
