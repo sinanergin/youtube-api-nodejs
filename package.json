@@ -1,0 +1,33 @@
+{
+  "name": "youtube-api-nodejs",
+  "version": "1.0.0",
+  "description": "Query with Youtube API over Node.JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "prod": "NODE_ENV=prod node src/index.js"
+  },
+  "keywords": [
+    "Youtube API",
+    "NodeJS",
+    "Express",
+    "MySQL",
+    "API"
+  ],
+  "author": "Sinan ERGIN",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "pino": "^8.3.0",
+    "pino-pretty": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
