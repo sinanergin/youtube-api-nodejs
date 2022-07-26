@@ -1,3 +1,5 @@
+(You need to a Youtube API KEY for send queries. I removed the key for privacy. Please open the '.env' file and enter API_KEY value then save the file.)
+
 1- The application works on Docker containers.
 First of all lets install docker our computer
 
