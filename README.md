@@ -13,22 +13,22 @@
 	**`docker-compose up -d`**
 
 5. When containers installed your computer, you can send the Rest API requests. 
-	Node app works on `localhost:3001 `
+	Node app works on `localhost:3000 `
 	Mysql works on` localhost:3306 `
 	Your password and connection information are in the `.env` file.
 
 6. Here are Rest API endpoints: 
 	Get all videos from YouTube Channels and save to DB: 		
-	`localhost:3001/video/pullAllVideos (GET request)`
+	`localhost:3000/video/pullAllVideos (GET request)`
 
 	Retrive of all videos from db: 
-	`localhost:3001/video/getAllVideos (GET request)`
+	`localhost:3000/video/getAllVideos (GET request)`
 
 	Get a video by ID: 
-	`localhost:3001/video/getVideo/1 (GET request)`
+	`localhost:3000/video/getVideo/1 (GET request)`
 
 	Delete a video by ID: 
-	`localhost:3001/video/getVideo/1 (DELETE request)`
+	`localhost:3000/video/getVideo/1 (DELETE request)`
 
 7. If you want to shut down all the containers, please type this command: 
 	`docker-compose down`
