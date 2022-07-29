@@ -8,7 +8,7 @@
 
 3. Open the command line and change directory where the **`docker-compose.yml`** file.
 
-4. We suppose docker client is working on your system. 
+4. I suppose docker client is working on your system. 
 	Type this command and wait complete of download: 
 	**`docker-compose up -d`**
 
